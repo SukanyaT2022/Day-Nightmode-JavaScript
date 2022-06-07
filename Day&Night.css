@@ -1,0 +1,85 @@
+:root{
+    --blackColor:rgba(0, 0, 0, 0.5);
+    --whitecolor:white;
+    
+   --happyColor:lightcoral;
+   --seaColor:lightblue;
+
+}
+/*IMPORTANT--flip color chnage black to withe and white to black below*/
+.nightmode{
+    --blackColor:white;
+    --whitecolor:rgba(0, 0, 0, 0.5);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 20px ;/*top right bottom left*/
+
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+  
+}
+
+/*remove underline out--use a tag*/
+a{
+text-decoration: none;
+padding: 20px;
+color:var(--blackColor);
+
+}
+
+nav{
+    display: flex;
+    background-color: var(--whitecolor);
+    align-items: center;
+ 
+  
+
+}
+
+/*header*/
+header{
+padding: 30px 150px 0px 150px;
+height: 90vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+background-color: var(--whitecolor);
+}
+
+.clickMe{
+    background-color: var(--seaColor);
+    color: var(--happyColor);
+    padding: 10px 20px;
+    font-weight: bolder;
+
+}
+
+#mode{
+    background-color: var(--happyColor);
+    height: 60px;
+    width: 60px;
+margin-left: 700px;
+border-radius: 50%;
+font-weight: bold;
+
+}
+
+#mode:hover{
+    background-color: cyan;
+}
+
+
+
+
